@@ -1,54 +1,59 @@
-# React + TypeScript + Vite
+# 🏋️ Fitness App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive fitness web application built with **TypeScript**, **Tailwind CSS**, and **React**. The app is designed to help users track workouts, build routines, and stay motivated on their fitness journey.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- ✅ Responsive Navbar
+- 🧠 Built with TypeScript for type safety
+- 🎨 Styled using Tailwind CSS
+- 📱 Mobile-friendly design
+- 🧩 Modular and scalable component structure
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+## 🛠️ Technologies
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+- React
+- TypeScript
+- Tailwind CSS
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+## 📦 Installation
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+```bash
+git clone https://github.com/asgari1991/fitness-App.git
+npm install
+npm run dev
+
+Or with Yarn:
+
+yarn install
+yarn dev
+
+🧪 Development
+
+
+Scripts
+
+    npm run dev — Start development server
+
+    npm run build — Build for production
+
+📌 To-Do
+
+Responsive Navbar
+
+Workout Plan UI
+
+Timer & Tracking
+
+Authentication
+
+    User Dashboard
+
+🤝 Contributing
+
+Pull requests are welcome. For major changes, open an issue first to discuss what you would like to change.
+📄 License
+
+MIT
