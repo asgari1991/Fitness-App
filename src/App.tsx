@@ -3,6 +3,7 @@ import Navbar from "./scenes/navbar"
 import { SelectedPage } from "@/shared/types"
 import Home from "./scenes/home"
 import Benefits from "./scenes/benefits"
+import OurClasses from "./scenes/ourClasses"
 
 
 
@@ -30,6 +31,7 @@ return ()=>window.removeEventListener('scroll',handleScroll)
         <Navbar isTopOfPage={isTopOfPage} selectedPage={selectedPage} setSelectedPage={setSelectedPage}/>
         <Home setSelectedPage={setSelectedPage}/>
         <Benefits setSelectedPage={setSelectedPage}/>
+        <OurClasses setSelectedPage={setSelectedPage}/>
       </div>
       
    
